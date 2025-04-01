@@ -31,6 +31,8 @@
                 <strong>Insights:</strong> The experience taught me the importance of structuring choices in a way that each decision feels impactful. It also emphasized the need for consistency in design and the importance of user feedback during game interaction.
             </p>
         </div>
+        <!-- Add the refresh button -->
+        <button id="refresh-btn" onclick="refreshPage()">Restart Game</button> <!-- Refresh button -->
     </div>
 
     <script src="game.js"></script>
@@ -42,8 +44,12 @@
     <script type="text/javascript">
          var x = document.lastModified;
          document.getElementById('lastModified').textContent = x;
+
+         // Function to refresh the page
+         function refreshPage() {
+             location.reload(); // Reloads the current page
+         }
     </script>
 
 </body>
 </html>
-
