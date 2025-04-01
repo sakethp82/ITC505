@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e; /* Keep the background color you already have */
+  color: white;
+  text-align: center;
+  background-image: url('images/background.jpg'); /* Add your background image path here */
+  background-size: cover; /* Ensures the image covers the entire page */
+  background-position: center; /* Centers the background image */
+  background-attachment: fixed; /* Keeps the background fixed when scrolling */
+}
+
+#game-container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+#story-container {
+  margin-bottom: 20px;
+}
+
+#story-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+#choices button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #00c853;
+  border: none;
+  border-radius: 5px;
+}
+
+#choices button:hover {
+  background-color: #009624;
+}
+
+#image-preview {
+  margin-top: 20px;
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#image-preview img {
+  max-width: 200px;
+  height: auto;
+}
+
+
+#addendum-btn {
+  position: fixed; /* Fix the button to the bottom */
+  bottom: 20px; /* 20px from the bottom of the screen */
+  left: 50%; /* Position it in the center horizontally */
+  transform: translateX(-50%); /* Adjust to perfectly center it */
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#addendum-btn:hover {
+  background-color: #ff8f00;
+}
+
+#addendum-container {
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  color: #fff;
+}
