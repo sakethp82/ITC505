@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben 10 The ultimate showdown</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Ben 10 The ultimate Showdown</h1>
+        <div id="story-container">
+            <p id="story"></p>
+        </div>
+        <div id="choices"></div>
+        <div id="image-preview"></div>
+        <button id="restart-btn" style="display:none;" onclick="startGame()">Restart Game</button>
+        <button id="addendum-btn">Addendum</button> <!-- New button for Addendum -->
+        <div id="addendum-container" style="display:none;">
+            <h2>Process and Creative Choices</h2>
+            <p>
+                <strong>Process:</strong> During the development of this game, I focused on creating an interactive narrative that allows players to make choices at every stage. Each choice leads to a different outcome, adding replay value to the game. The aim was to provide a storyline where Ben 10 transforms into different aliens to combat various enemies.
+            </p>
+            <p>
+                <strong>Creative Choices:</strong> I chose to focus on a key feature of the Ben 10 series—alien transformations—by presenting players with a variety of aliens to choose from. This allowed the game to feel dynamic and gave each stage a unique challenge.
+            </p>
+            <p>
+                <strong>Challenges:</strong> One of the challenges I faced was ensuring that the transitions between stages were smooth and logically made sense based on the player's choices. I also had to manage the complexity of handling images, so the right visuals would display based on the decisions made.
+            </p>
+            <p>
+                <strong>Insights:</strong> The experience taught me the importance of structuring choices in a way that each decision feels impactful. It also emphasized the need for consistency in design and the importance of user feedback during game interaction.
+            </p>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+    <footer>
+        <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>
+
+</body>
+</html>
 
